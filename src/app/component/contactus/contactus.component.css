@@ -1,0 +1,88 @@
+.banner_area {
+    background: url("/assets/Images/home.jpg") no-repeat center center;
+    background-position: center center;
+    z-index: 1;
+    min-height: 300px;
+    padding-top: 0 !important
+}
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 500px;
+    z-index: 1
+}
+.banner_area .banner_inner .overlay {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .4
+}
+.banner_area .banner_inner .banner_content {
+    z-index: 2;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+	outline: none;
+}
+.mapBox {
+    height: 420px;
+}
+.contact_info .info_item {
+    padding-left: 35px
+}
+.contact_info .info_item i {
+    left: 0;
+    top: 0;
+}
+.contact_form .form-group .form-control {
+    color: #999;
+    border: 1px solid #eee;
+}
+.contact_form .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none
+}
+.contact_form .form-group .form-control.placeholder{
+    color: #999
+}
+.contact_form .form-group .form-control:-moz-placeholder {
+    color: #999
+}
+.contact_form .form-group .form-control::-moz-placeholder {
+    color: #999
+}
+.contact_form .form-group .form-control::-webkit-input-placeholder {
+    color: #999
+}
+.contact_form .form-group textarea.form-control {
+    height: 145px
+}
+.contact_form .primary-btn {
+    cursor: pointer
+}
+.primary-btn {
+	background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background-size: 200% auto;
+	outline: none !important;
+	box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.primary-btn:hover {
+	background-position: right center;
+	color: #fff;
+	box-shadow: none;
+}

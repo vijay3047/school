@@ -1,0 +1,43 @@
+.school-bg{
+    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background-size: 200% auto;
+    outline: none !important;
+    box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; 
+}
+.school-bg:hover {
+    background-position: right center;
+    color: #fff;
+    box-shadow: none; 
+}
+.submenu ul .nav-item .nav-link {
+    color: #222;
+}
+.submenu ul .nav-item:hover .nav-link {
+    background: #00aee0;
+    color: #fff
+}
+button{
+    text-decoration: none;
+	outline: none;
+}
+button:hover,button:focus {
+    color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+/* .drop{
+    left: 0px;
+} */
+@media (max-width:250px) {
+    .drop {
+        left: 0;
+    }
+    }

@@ -1,0 +1,73 @@
+.banner_area {
+    background: url("/assets/Images/home.jpg") no-repeat center center;
+    z-index: 1;
+    min-height: 500px;
+    padding-top: 0 !important
+}
+.banner_area .banner_inner {
+    min-height: 500px;
+    z-index: 1
+}
+.banner_area .banner_inner .overlay {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .4
+}
+.banner_area .banner_inner .banner_content {
+    z-index: 2;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+	outline: none;
+}
+@media (max-width:991px) {
+    .popular {
+        padding: 60px 0 30px
+    }
+}
+@media (max-width:991px) {
+    .main_title {
+        margin-bottom: 40px
+    }
+}
+@media (max-width:575px) {
+    .main_title h2 {
+        font-size: 30px;
+    }
+}
+.bg:hover {
+	background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+    color: #ffffff;
+}
+.price{
+    background: -webkit-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -moz-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -ms-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -o-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+}
+.price:hover {
+    color: #fff;
+}
+a{
+    color: #000;
+    text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #2b05ff;
+	text-decoration: none;
+	outline: none;
+}

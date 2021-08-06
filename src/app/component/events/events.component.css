@@ -1,0 +1,19 @@
+img {
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+.single_event:hover img {
+    transform: scale(1.1)
+}
+a {
+	text-decoration: none;
+	outline: none;
+    color: #000;
+}
+.single_event:hover h4 a, a:focus {
+    color: #00aee0;
+    text-decoration: none;
+	outline: none;
+}

@@ -1,0 +1,75 @@
+<div class="container-fluid p-3 align-text-center school-bg border-bottom" *ngIf="showMe">
+    <form class="d-flex input-group input-group-sm">
+        <input class="form-control bg-light" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn school-bg fw-bold" type="submit">Search</button>
+        <a type="button" class="text-light ms-5 mt-2" (click)="show()" aria-label="Close"><i class="fas fa-times fs-4"></i></a>
+    </form>
+</div>
+
+<nav class="navbar header_area navbar-expand-lg shadow bg-light school-bg pt-4 pb-4 text-dark ">
+    <div class="container-fluid">
+        <img src="" class="border align-text-top me-1" alt="logo" width="32" height="32" />
+        <a class="navbar-brand mb-0 h1 pe-5" href="/">
+            <span class="text-light fs-3 fw-bolder"> Eschool </span>
+        </a>
+        <button class="navbar-toggler mt-3 nav-tog" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse float" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a href="" class="nav-link text-light" tabindex="-1" aria-disabled="true">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="/about_us" class="nav-link text-light" tabindex="-1" aria-disabled="true">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item submenu position-relative dropdown">
+                    <a class="nav-link text-light" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Courses</a>
+                    <ul class="dropdown-menu drop border-0 float-start p-0 w-25 rounded-0 m-0 school-bg">
+                        <li class="nav-item d-block border-bottom me-0 ms-0">
+                            <a routerLink="/popular_courses" class="nav-link p-2 d-block" href="#">
+                                Courses
+                            </a>
+                        </li>
+                        <li class="nav-item d-block border-bottom me-0 ms-0">
+                            <a class="nav-link p-2 d-block" routerLink="/courses_details">
+                                Course Details
+                            </a>
+                        </li>
+                    </ul>
+                </li>      
+                <li class="nav-item">
+                    <a routerLink="contact_us" class="nav-link text-light" tabindex="-1" aria-disabled="true">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="login_now" class="nav-link text-light" tabindex="-1" aria-disabled="true">
+                        Login
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="registration_now" class="nav-link text-light" tabindex="-1" aria-disabled="true">
+                        Registration
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" (click)="show()" tabindex="-1" aria-disabled="true">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+            <span class="text-light shadow ps-2 pe-2 pt-1 pb-1">
+                Vijay Mishra
+                <i class="fas fs-3 fa-user ms-2"></i>
+            </span>
+        </div>
+    </div>
+</nav>

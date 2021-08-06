@@ -1,0 +1,56 @@
+.registration_area{
+    background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%)
+}
+@media (max-width:575px) {
+.clock_sec h1 {
+    font-size: 100%
+}
+}
+img {
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+img:hover{
+    transform: scale(1.1)
+}
+.clock_sec .clockinner {
+border: 1px solid #66e9eb;
+}
+.register_form input {
+border: none;
+}
+.register_form input:focus {
+outline: none;
+}
+.register_form input::-webkit-input-placeholder {
+color: #aaa;
+font-size: 14px;
+font-weight: 500;
+}
+.primary-btn {
+background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+background-size: 200% auto;
+outline: none !important;
+box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+.primary-btn:hover {
+background-position: right center;
+box-shadow: none;
+}
+.btn2:hover {
+color: #fff;
+}

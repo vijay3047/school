@@ -1,0 +1,96 @@
+.banner_area {
+    background: url("/assets/Images/home.jpg") no-repeat center center;
+    background-position: center center;
+    z-index: 1;
+    min-height: 300px;
+    padding-top: 0 !important
+}
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 500px;
+    z-index: 1
+}
+.banner_area .banner_inner .overlay {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .4
+}
+.banner_area .banner_inner .banner_content {
+    z-index: 2;
+}
+a{
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+    text-decoration: none;
+	outline: none;
+}
+.course_details_area .title {
+    cursor: pointer;
+}
+.course_details_area .title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 140px;
+    background: #6bce41
+}
+.course_details_left .course_list li .primary-btn {
+    background: #f0efef;
+    color: #777;
+    box-shadow: none;
+}
+.course_details_left .course_list li .primary-btn:hover {
+    background: #00aee0;
+    color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 175, 224, .3)
+}
+@media (max-width:575px) {
+    .course_details_left .course_list li .primary-btn {
+        min-width: 90px;
+    }
+}
+.right-contents ul li {
+    background: #f9f9f9;
+}
+
+.right-contents ul li a {
+    color: #777;
+}
+.right-contents .feedeback textarea {
+    height: 116px;
+    background: #ceeaff
+}
+.right-contents .feedeback textarea:focus {
+    box-shadow: none
+}
+.right-contents .star .checked {
+    color: #d0ff00
+}
+.primary-btn {
+	background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background-size: 200% auto;
+	outline: none !important;
+	box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.primary-btn:hover {
+	background-position: right center;
+	color: #fff;
+	box-shadow: none;
+}

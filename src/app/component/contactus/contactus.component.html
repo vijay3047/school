@@ -1,0 +1,105 @@
+<section class="banner_area align-items-center position-relative shadow-lg mb-5">
+    <div class="banner_inner position-relative overflow-hidden w-100 d-flex align-items-center">
+        <div class="overlay position-absolute"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="banner_content position-relative text-light text-center">
+                        <h2 class="fs-1 fw-bold">Contact Us</h2>
+                        <p>In the history of modern astronomy, there is probably no one greater leap forward than
+                            the
+                            building and launch of the space telescope known as the Hubble.</p>
+                        <div class="page_link inline-block border-light border-2 border-bottom border-top mt-5 p-1">
+                            <a href=""
+                                class="fs-5 text-light border-light border-1 border-bottom border-top position-relative text-uppercase">Home</a>
+                            <i class="fas fa-long-arrow-alt-right ms-3 me-3"></i>
+                            <a routerLink="/contact_us"
+                                class="fs-5 text-light border-light border-1 border-bottom border-top position-relative text-uppercase">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact_area mt-5 mb-5 pt-5 pb-5 card shadow-lg">
+    <div class="container">
+        <div id="map" class="mapBox bg-light mb-5 card shadow text-center w-100">
+            Google Map
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-3 shadow pt-5 ps-3 pb-5 mb-3 mt-3">
+                <div class="contact_info">
+                    <div class="info_item position-relative mb-4">
+                        <i class="position-absolute lh-sm text-info fas fs-4 fa-home"></i>
+                        <h6 class="fs-5 lh-1 fw-bold mb-0">California, United States</h6>
+                        <p class="text-secondary lh-sm">Santa monica bullevard</p>
+                    </div>
+                    <div class="info_item position-relative mb-4">
+                        <i class="position-absolute lh-sm text-info fas fs-4 fa-mobile"></i>
+                        <h6 class="fs-5 lh-1 fw-bold mb-0"><a class="text-dark" href="#">+91 96913 12048</a></h6>
+                        <p class="text-secondary lh-sm">Mon to Fri 9am to 6 pm</p>
+                    </div>
+                    <div class="info_item position-relative mb-4">
+                        <i class="position-absolute lh-sm text-info fas fs-4 fa-envelope"></i>
+                        <h6 class="fs-5 lh-1 fw-bold mb-0"><a class="text-dark" href="#">
+                                vijaym@ssism
+                            </a>
+                        </h6>
+                        <p class="text-secondary lh-sm">Send us your query anytime!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 shadow mt-3 mb-3 pt-5 ps-4 pb-5 ">
+                <form class="row contact_form">
+                <!-- <form class="row contact_form" [formGroup]="form" (ngSumit)="submit"> -->
+                    <div class="col-md-6">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control pl-1" id="C_Name" name="name"
+                                placeholder="Enter your name">
+                                <span id="C_Name_err" class="text-danger text-start"></span>
+                            <!-- <div *ngIf="f.name.touched && f.name.invalid" class="alert alert-danger" role="alert">
+                                <div *ngIf="f.name.errors.required">Name is required</div>
+                                <div *ngIf="f.name.errors.minlength">Name should be 10 Character</div>
+                            </div> -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="email" class="form-control pl-1" id="C_Email" name="email"
+                                placeholder="Enter email address">
+                                <span id="C_Email_err" class="text-danger text-start"></span>
+                            <!-- <div *ngIf="f.email.touched && f.email.invalid" class="alert alert-danger" role="alert">
+                                <div *ngIf="f.email.errors.required">Email is required</div>
+                                <div *ngIf="f.email.errors.email">Please enter valid email</div>
+                            </div> -->
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control pl-1" id="C_Subject" name="subject"
+                                placeholder="Enter Subject">
+                                <span id="C_Subject_err" class="text-danger text-start"></span>
+                            <!-- <div *ngIf="f.subject.touched && f.subject.invalid" class="alert alert-danger" role="alert">
+                                <div *ngIf="f.subject.errors.required">subject is required</div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="C_Message" rows="1"
+                                placeholder="Enter Message"></textarea>
+                                <span id="C_Message_err" class="text-danger text-start"></span>
+                                <!-- <div *ngIf="f.message.touched && f.message.invalid" class="alert alert-danger" role="alert">
+                                    <div *ngIf="f.message.errors.required">message is required</div>
+                                </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <!-- <button type="submit" value="submit" class="btn primary-btn">Send Message</button> -->
+                        <a role="button" onclick="send()"
+                            class="btn primary-btn mt-3 ps-3 pe-3 pt-2 pb-2 fs-6 inline-block float-end text-center text-uppercase"><b>send
+                                message</b></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

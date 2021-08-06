@@ -1,0 +1,135 @@
+.feature_area .single_feature1{
+	background: -webkit-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
+	background: -moz-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
+	background: -ms-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
+	background: -o-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
+	background: linear-gradient(90deg, #e94086 0%, #e5925a 100%);
+	background-size: 200% auto;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; 
+}
+.feature_area .single_feature1:hover {
+    box-shadow: 0px 40px 70px #e9408760;
+    background-position: right center;
+    color: #fff;
+}
+.single_feature1, .single_feature2, .single_feature3{
+	padding: 10%;
+}
+.feature_area .single_feature2{
+	background: -webkit-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -moz-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -ms-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: -o-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background: linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+	background-size: 200% auto;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; 
+}
+.feature_area .single_feature2:hover {
+    box-shadow: 0px 40px 70px #7349cc8e;
+    background-position: right center;
+    color: #fff;
+}
+.feature_area .single_feature3{
+	background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+	background-size: 200% auto;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; 
+}
+.feature_area .single_feature3:hover {
+    box-shadow: 0px 40px 70px rgba(0, 175, 224, 0.3);
+    background-position: right center;
+    color: #fff;
+ }
+.home_banner_area {
+	min-height: 780px;
+	width: 100%;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/Images/home.jpg") no-repeat scroll center;
+}
+.home_banner_area .banner_inner {
+	z-index: 10;
+}
+.home_banner_area .banner_inner .banner_content p {
+	margin: 25px 0px 45px;
+}
+.home_banner_area .search_course_wrap .form_box {
+	background: rgba(255, 255, 255, 0.15);
+	padding: 8px 0px;
+}
+.home_banner_area .search_course_wrap .form-control {
+	height: 50px;
+	padding: 0 20px;
+}
+.home_banner_area .search_course_wrap input.placeholder {
+	color: #ffffff;
+	font-size: 20px;
+}
+.home_banner_area .search_course_wrap input:-moz-placeholder {
+	color: #ffffff;
+	font-size: 20px;
+}
+.home_banner_area .search_course_wrap input::-moz-placeholder {
+	color: #ffffff;
+	font-size: small;
+}
+.home_banner_area .search_course_wrap input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: small;
+}
+.home_banner_area .search_course_wrap .search_course_btn {
+	background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+	background-size: 200% auto;
+	font-size: small;
+	left: 40px;
+	padding: 0 15px;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.search_course_btn:hover {
+	color: #ffffff;
+}
+@media (max-width: 360px) {
+	.home_banner_area .search_course_wrap .search_course_btn {
+		width: 100%;
+		padding: 5px 5px;
+		left: 0;
+	}}
+.home_banner_area .search_course_wrap .search_course_btn:hover {
+	background-position: right center;
+}
+.feature_area {
+	margin-top: -37em;
+}
+@media (max-width: 991px) {
+	.feature_area {
+		margin-top: 60px;
+	}
+}
+@media (max-width: 480px) {
+	.single_feature {
+		padding: 40px 20px;
+	}}
+.form_box{
+	outline: none;
+	box-shadow: none
+}
